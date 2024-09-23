@@ -1,10 +1,13 @@
-\documentclass[a4paper,12pt]{article}
+\documentclass[letter,12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[left=0.5in, right=0.5in, top=0.5in, bottom=0.5in]{geometry}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{titlesec}
 \usepackage{fourier}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{multicol}
 \titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
 \titlespacing*{\section}{0pt}{\baselineskip}{0.5\baselineskip}
 \setlength{\parskip}{0.5\baselineskip}
@@ -13,79 +16,201 @@
 \begin{center}
 \textbf{\LARGE Dylan-Matthew Garza} \\[0.1cm]
 \href{mailto:dylangarza1909@gmail.com}{dylangarza1909@gmail.com} |
-\href{https://www.linkedin.com/in/dylan-matthew-garza-094b021ba/}{LinkedIn} |
-\href{https://github.com/DMGDy}{GitHub} |
+  \href{https://www.linkedin.com/in/dylan-matthew-garza-094b021ba/}{\textcolor{cyan}{\underline{My LinkedIn}}} |
+  \href{https://github.com/DMGDy}{\textcolor{cyan}{\underline{GitHub}}} |
 Phone: (805) 330-5663
 \end{center}
 
+\vspace{-1.5cm}
 % Objective
 \section*{Objective}
 Computer Engineering student graduating in December 2024 seeking an 
 engineering role in embedded Linux development, and Linux systems 
 development.
 
+\vspace{-.5cm}
+\section*{Skills Summary}
+\vspace{-.5cm}
+\begin{tcolorbox}
+  [colback=gray!25,
+  leftrule=0pt,
+  rightrule=0pt,
+  sharp corners]
+\vspace{-.125cm}
+  \begin{multicols}{3}
+  $\circ$ Embedded Linux development with Yocto Project\\
+  $\circ$ Toolchains, SDKs, BSPs \\
+  $\circ$ Systems Programming: C/C++, Rust \\
+  $\circ$ Scripting: POSIX/bash/python \\
+  $\circ$ Git and command line interface \\
+  \columnbreak\\
+  $\circ$ Dynamic binary analysis with Intel's PinTool\\
+  $\circ$ Full-stack development: Web Assembly, Rust\\
+  $\circ$$\mu$C development for Arm Cortex-M4\\
+  $\circ$$\mu$C peripheral: CAN-FD, DRAM, I2C, UART, STM32MP1, SPI\\
+  \columnbreak\\
+  $\circ$ Object-Oriented Programming with C++ \\
+  $\circ$ Linux server administration \\
+  $\circ$ Security: PKI, SSL/TLS\\
+  \end{multicols}
+    
+\vspace{-1.00cm}
+%  \textbf{Programming:}
+%  C/C++,Rust,Web Assembly,HTML + CSS,Python,Java,MATLAB Shell(Bash/POSIX) \\ 
+%  \textbf{Hardware:}
+%  VHDL,Verilog,RTL and RTL design, Microcontrollers, KiCAD\\ \textbf{Tools:}
+%  Linux(As server), Git, Yocto Project(Bitbake) ,TCP/IP,
+%  ELF Binary analysis, QEMU, Simulink, MATLAB
+\end{tcolorbox}
+
+
+\vspace{-.5cm}
 % Work Experience
-\vspace{-.5cm} \section*{Work Experience} \textbf{ZF Group, Research and Development Intern} \hfill August 2024 - Present\\ 
-$\cdot$ Design and Implement a device with capabilities to test different vehicle components to determine if specifications are met\\
-$\cdot$ Test device will reduce the amount of time testers spend setting up tests and allow engineers to more easily
-  see how test fail\\
-$\cdot$ Using Yocto Project to build a custom embedded linux image for the ARM Cortex A7 architecture \\
-$\cdot$ Designed a fully Web Assembly application for testers to interact with (using the yew framework in Rust) \\
-$\cdot$ Designed a Rust backend application to handle HTTP request and communicate to an onboard microcontroller (ARM Cortex M4)
+\section*{Experience} 
+\begin{tcolorbox}
+[colback=gray!25,
+  leftrule=0pt,
+  rightrule=0pt,
+  sharp corners]
+\textbf{ZF Group, Research and Development Intern} \hfill August 2024 - Present 
+\end{tcolorbox}
+\noindent$\cdot$ Design and implement a device with capabilities to test different vehicle components to determine if specifications are met\\
+$\cdot$ Streamline device testing and test data handling and interpretation\\
+$\cdot$ Using Yocto Project to build a custom embedded linux image for the Arm Cortex-A7 architecture \\
+$\cdot$ Designing an interactive web application for testers implemented fully in Web Assembly with the Yew framework in Rust \\
+$\cdot$ Designing a Rust backend application to handle HTTP request and communicate to an onboard microcontroller (Arm Cortex M4)
 using interprocess communication (IPC) through the OpenAMP framework\\
-
-
-\vspace{-.25cm}\noindent\textbf{Resideo, Embedded Linux
-Engineer Intern} \hfill May 2022 - August 2022\\ 
-$\cdot$ Successfully integrated
+\vspace{-.5cm}
+\begin{tcolorbox}
+[colback=gray!25,
+  leftrule=0pt,
+  rightrule=0pt,
+  sharp corners]
+\noindent\textbf{Resideo, Embedded Linux
+Engineer Intern} \hfill May 2022 - August 2022 
+\end{tcolorbox}
+\noindent$\cdot$ Successfully integrated
 debuginfod, a file server, into CI/CD pipeline in order to make the debugging
-workflow and analyzing core files of embedded Linux systems simpler and more
+workflow and analyzing core files of embedded Linux images simpler and more
 efficient.\\
-$\cdot$ Worked primarily on an CLI and wrote shell scripts to automate
-tasks.\\
-$\cdot$ Also learned about the Yocto Project as an embedded Linux build
-system.\\
+$\cdot$ Developed shell/bash scripts to automate tasks\\
+$\cdot$ Learned about the Yocto Project to develop custom reproduceable 
+embedded Linux images\\
 $\cdot$ Wrote technical documentation and gave a presentation on 
-how tools worked.\\
-$\cdot$ Worked in an Agile environment \\
+how to utilize tools\\
+$\cdot$ Learned the principles of agile develop to improve software 
+velocity, reduce bug count and decrease time to market\\
+\vspace{-.5cm}
+\begin{tcolorbox}
+[colback=gray!25,
+  leftrule=0pt,
+  rightrule=0pt,
+  sharp corners]
+ \textbf{eMatrix Energy Systems, Assembly Technician}
+\hfill May 2021 - August 2021 
+\end{tcolorbox}
+\noindent 
+- Constructed and tested various components of
+battery packs and battery cells\\ 
+- Worked with engineers on prototyping new designs of battery packs\\
+$\cdot$ Followed safetey procedures to ensure a safe working environment
+\vspace{-.5cm} 
 
-\vspace{-.5cm} \noindent \textbf{eMatrix Energy Systems, Assembly Technician}
-\hfill May 2021- August 2021\\ - Constructed and tested various components of
-battery packs and battery cells\\ - Worked with engineers on prototyping (constructing, testing)\\
-$\cdot$ Followed safetey protocols to ensure a safe working environment
-\vspace{-.5cm} \section*{Projects} \textbf{Dynamic Conveyor Belt Positioning
-System} \hfill April 2023\\ Designed and implemented a system utilizing an STM32
-microcontroller to move an object on a conveyor belt from start to end position
-using peripherals such as LED indicator, IR emitter and receiver module,
-H-Bridge motor driver module, and motor encoder module, with specific operations
-and frequency/duty cycle adjustments based on input signals. \noindent\\
-\textbf{Custom 10-bit CPU} \hfill January 2023 - April 2023\\ Designed a custom
-10-bit ISA and simulated a CPU using Verilog HDL. CPU was implemented in both
-single-cycle and in pipelined fashion with two-level memory hierarchy with cache
-and RAM. Branch predictor was also implemented and programs were ran such as
-multiply, string copy, and bubble sort.\\
-
+\section*{Projects} 
 \vspace{-.25cm}
-% Education
-\section*{Education} \textbf{Western Michigan University} \hfill Expected:
-December 2024\\ B.S. in Computer Engineering and Minor
-in Mathematics\\ 
+% Maybe Include?
+\begin{tcolorbox}
+[colback=gray!25,
+  leftrule=0pt,
+  rightrule=0pt,
+  sharp corners]
+\textbf{Custom Status Bar Development for Linux Desktop Environment}
+\hfill July 2024 - Present
+\end{tcolorbox}
+\noindent
+$\cdot$ Developed a fully custom status bar utilizing Eww Widgets 
+(standalone widget system implemented in Rust) for the Hyprland Wayland 
+Compositor\\
+$\cdot$ Dynamic workspace display implemented using C through UNIX sockets, interprocess 
+communication and signal handling\\
+$\cdot$ System statuses fetched real-time using compiled C and Rust binaries include
+SSID, Wi-Fi connectivity, IPv4 address, RAM usage, battery capacity, and time/date\\
+$\cdot$ Styled in GTK SCSS \\
+$\cdot$ \href{https://github.com/DMGDy/eww-bar}
+{\color{cyan}{\underline{Link to Project Github Repository}}}
 
+\vspace{-.125cm}
+\begin{tcolorbox}
+[colback=gray!25,
+  leftrule=0pt,
+  rightrule=0pt,
+  sharp corners]
+\noindent\textbf{Simulation of Fixed-length Vector Architecture Superpipline}
+\hfill November 2023 - December 2023
+\end{tcolorbox}
+\noindent
+$\cdot$ Simulated a pipeline for a vector processor in fully Object-Oriented C++\\
+$\cdot$ Utilized Intel's PinTool to dynamically profile binary for vector instructions (AVX/AVX2) instructions to generate a custom trace file\\
+$\cdot$ Supported Variable single-instruction multiple-data (SIMD) lanes\\
+$\cdot$ Implemented 6-stage pipeline (fetch, decode, issue, execute, commit)\\
+$\cdot$ Out-of-order execution through Tomasulo's algorithm (method of dynamic
+instruction scheduling and out-of-order execution)
+with a fixed issue width\\
+
+\vspace{-.5cm}
+\begin{tcolorbox}
+[colback=gray!25,
+  leftrule=0pt,
+  rightrule=0pt,
+  sharp corners]
+\noindent\textbf{Dynamic Conveyor Belt Positioning System} 
+  \hfill April 2023 
+\end{tcolorbox}
+\noindent
+$\cdot$ Designed and implemented a system utilizing an STM32 microcontroller \\
+$\cdot$ Move an object on a conveyor belt from start to end position \\
+$\cdot$ Using peripherals such as LED indicator, IR emitter, Ohm speaker, and relay switch\\
+$\cdot$ H-Bridge motor driver module, and motor encoder module \\
+$\cdot$ With specific operations and frequency/duty cycle adjustments based on input signals \\
+
+\vspace{-.5cm}
+
+\begin{tcolorbox}
+[colback=gray!25,
+  leftrule=0pt,
+  rightrule=0pt,
+  sharp corners]
+\textbf{Custom 10-bit CPU} 
+\hfill January 2023 - April 2023 
+\end{tcolorbox}
+\noindent
+$\cdot$ Designed a custom 10-bit ISA and simulated a 5 stage pipelined CPU using the Verilog HDL \\
+$\cdot$ CPU was implemented with two-level memory hierarchy with cache and RAM. \\
+$\cdot$ Branch predictor was also implemented as a 2-bit predictor with a branch history register and
+pattern history table\\
+$\cdot$ Wrote machine code for bubble sort, string copy, and multiply programs
+\vspace{-.75cm}
 
 % Certifications
-\section*{Certifications} \textbf{LFD 460:Embedded Linux Developement with Yocto
-Project} \hfill August 2022\\ \vspace{-.5cm}\vspace{.5cm}
-Gained expertise in developing custom embedded Linux systems through the Yocto Project, encompassing advanced tool usage and IDE integration for efficient embedded product development.
+\section*{Certifications}
+\vspace{-.25cm}
+\textbf{LFD 460:Embedded Linux Developement with Yocto
+Project} \hfill August 2022\\ 
+Gained expertise in developing custom embedded Linux systems through the Yocto Project, encompassing advanced tool usage and IDE integration for efficient embedded product development.\\
+\href{https://www.credly.com/badges/2a1ad89a-9c46-4145-a715-128f7a8fd1db/public_url}
+{\color{cyan}{\underline{Credly Badge}}} |
+\href{https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/fcc7abec-e782-4b52-a893-697157cb2e3b-dylan-garza-9cd517ca-cff3-4ee2-898e-4173cb45d893-certificate.pdf}
+{\color{cyan}{\underline{Linux Foundation Certificate}}}
+
+\vspace{-.5cm}
+
+% Education
+\section*{Education} 
+\vspace{-.25cm}
+\textbf{B.S. in Computer Engineering and Minor in Mathematics} 
+\hfill Expected: December 2024\\
+Western Michigan University - Kalamazoo, Michigan\\ 
 
 % Technical Skills
-\vspace{-.25cm} \section*{Technical Skills}
-\textbf{Programming:}
-C/C++,Rust,Web Assembly,HTML + CSS,Python,Java,MATLAB Shell(Bash/POSIX) \\ 
-\textbf{Hardware:}
-VHDL,Verilog,RTL and RTL design, Microcontrollers, KiCAD\\ \textbf{Tools:}
-Linux(As server), Git, Yocto Project(Bitbake) ,TCP/IP,
-ELF Binary analysis, QEMU, Simulink, MATLAB
-% Projects
-
 \end{document}
 
