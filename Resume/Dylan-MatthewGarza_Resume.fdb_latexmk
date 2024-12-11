@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1733898482.29722 "Dylan-MatthewGarza_Resume.tex" "Dylan-MatthewGarza_Resume.pdf" "Dylan-MatthewGarza_Resume" 1733898482.71097 0
+["pdflatex"] 1733900528.66587 "Dylan-MatthewGarza_Resume.tex" "Dylan-MatthewGarza_Resume.pdf" "Dylan-MatthewGarza_Resume" 1733900529.08276 0
   "/nix/store/0jql6cn8jrks2l11dkisx5rl7nggaybg-texlive-2024-env-texmfdist/fonts/enc/dvips/base/8r.enc" 1 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/nix/store/0jql6cn8jrks2l11dkisx5rl7nggaybg-texlive-2024-env-texmfdist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1 2971 def0b6c1f0b107b3b936def894055589 ""
   "/nix/store/0jql6cn8jrks2l11dkisx5rl7nggaybg-texlive-2024-env-texmfdist/fonts/map/fontname/texfonts.map" 1 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -153,9 +153,9 @@
   "/nix/store/grprq9jwq5rdyk4kr7lzgyhbcx2dxcbc-texlive-2024-env/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1 5475591 3793f04dead36a3b1a8ca2c8c47cfc2c ""
   "/nix/store/grprq9jwq5rdyk4kr7lzgyhbcx2dxcbc-texlive-2024-env/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3326190 3221568613ecb4f345dfb8dcc61633bb ""
   "/nix/store/grprq9jwq5rdyk4kr7lzgyhbcx2dxcbc-texlive-2024-env/share/texmf-var/web2c/texmf.cnf" 1 43655 ebb5b5ae499048736c47f22aa32aa35f ""
-  "Dylan-MatthewGarza_Resume.aux" 1733898482.65243 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
-  "Dylan-MatthewGarza_Resume.out" 1733898482.57244 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Dylan-MatthewGarza_Resume.tex" 1733898481.20846 8740 e6f73051471d9c99b873d32fffaa657b ""
+  "Dylan-MatthewGarza_Resume.aux" 1733900529.02237 162 fa61bf9ecf9314f94d51aa32222a725c "pdflatex"
+  "Dylan-MatthewGarza_Resume.out" 1733900528.94637 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Dylan-MatthewGarza_Resume.tex" 1733900505.01078 8742 eeed0d95e5c7b8a1d807000c3270db64 ""
   (generated)
   "Dylan-MatthewGarza_Resume.aux"
   "Dylan-MatthewGarza_Resume.log"
